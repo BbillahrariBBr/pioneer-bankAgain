@@ -6,4 +6,26 @@ body{
     margin: 50px;
     padding: 40px;
     box-shadow: 5px 5px 10px 10px gray;
+    border-radius: 10px;
+}
+
+#transactionArea{
+    display: none;
+}
+
+.deposit, .withdraw, .balance{
+    color:white;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+
+.balance{
+    background-color: orange;
 }
